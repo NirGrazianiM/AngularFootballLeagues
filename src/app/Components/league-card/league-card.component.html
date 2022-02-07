@@ -1,0 +1,7 @@
+<div class="leagueBtn">
+  <button mat-raised-button color="primary" (click)="onBtnClick()">
+    {{ cardLeague.strLeague }}
+  </button>
+</div>
+
+<app-team-list [hidden]="isShow" [teamList]="teams"></app-team-list>
